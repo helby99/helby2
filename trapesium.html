@@ -1,0 +1,25 @@
+<DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equip="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trapesium</title>
+    </head>
+    <body>
+        <script type="text/javascript" src="bangun-datar.js"></script>
+        <script type="text/javascript" src="display.js"></script>
+        <script type="text/javascript">
+            let A = Number(prompt("Masukan ukuran Atas (cm)"));
+            let B = Number(prompt("Masukan ukuran Bawah (cm)"));
+            let T = Number(prompt("Masukan ukuran Tinggi (cm)"));
+            let S1 = Number(prompt("Masukan ukuran Sisi Kiri (cm)"));
+            let S2 = Number(prompt("Masukan ukuran Sisi Kanan (cm)"));
+
+            let luas = luasTrapesium(A,B,T);
+            let keliling = kelilingTrapesium(A,B,S1,S2);
+    
+            display(displayHasil,luas,keliling);
+        </script>
+    </body>
+    </html>

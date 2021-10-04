@@ -1,0 +1,26 @@
+<DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equip="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Belah Ketupat</title>
+    </head>
+    <body>
+        <script type="text/javascript" src="bangun-datar.js"></script>
+        <script type="text/javascript" src="display.js"></script>
+        <script type="text/javascript">
+            let D1 = Number(prompt("Masukan ukuran Diameter 1 (cm)"));
+            let D2 = Number(prompt("Masukan ukuran Diameter 2 (cm)"));
+            let S1 = Number(prompt("Masukan ukuran Sisi Atas Kiri (cm)"));
+            let S2 = Number(prompt("Masukan ukuran Sisi Atas Kanan (cm)"));
+            let S3 = Number(prompt("Masukan ukuran Sisi Bawah Kiri (cm)"));
+            let S4 = Number(prompt("Masukan ukuran Sisi Bawah Kiri(cm)"));
+
+            let luas = luasBelahketupat(D1,D2);
+            let keliling = kelilingBelahketupat(S1,S2,S3,S4);
+    
+            display(displayHasil,luas,keliling);
+        </script>
+    </body>
+    </html>
